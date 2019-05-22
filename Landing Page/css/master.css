@@ -1,0 +1,106 @@
+/*
+  STYLES GUIDE:
+  1.- RESET para resetear todos los estilos que trae el navegador
+  2.- LAYOUT para no afectar de acuerdo a las etiquetas HTML
+  3.- GENERIC ITEMS para todos los items
+  4.- PART OF THE WEB para manejar las etiquetas por separado
+  5.- LISTAS
+  6.- ANIMACIONES
+  ...........................
+  COLORES:
+  Colore 1: #C0C0C0   GRIS
+  Color 2: #FF4500    NARANJA
+  Colore 3: #FFFAFA   BLANCO NIEVE
+  Color 4: #000000    NEGRO
+  Color 5: #4682B4    AZÚL ACERO
+*/
+
+/* 1.-RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 2.-LAYOUT */
+body { text-align: center; font: 300 17px/1.7 'Karla';;}
+  .header{ display: flex; justify-content: center; align-items:
+    center; background-color: #C0C0C0 }
+  .navbar { display: flex; justify-content: center;
+     align-items: center ;}
+  .Contáctanos { text-align: left;}
+
+	.list-services {display: flex; align-items: center; justify-content: center;}
+  .list-services figure { display: flex; justify-content: center; align-items: center; flex-flow: column;}
+
+/* 3.-GENERIC ITEMS */
+  .header { 450px;}
+  .navbar { height: 63px; background: #4682B4}
+  .navbar a { color: #FFFAFA; padding: 0 20px; text-decoration: none;
+      text-transform: uppercase; font: 20px 'Josefin Sans'}
+  .title { margin-bottom: 40px; font: 60px 'Josefin Sans';}
+  p { margin-bottom: 40px;}
+  .btn { border: 2px solid #000000; padding: 10px 40 px; display: inline-block;
+  text-decoration: none; color: #000000}
+
+
+/* 4.-PART OF THE WEB */
+  .content { padding: 80px 0.0;}
+  .who { color: #FFFAFA; background: #4682B4;}
+    .who p { max-width: 1055px; margin: 0 auto;}
+
+  .services { background: #5F9EA0; color: #FFFAFA}
+
+  .Contáctanos{ background: #87CEFA; color: #FFFAFA}
+    .contain { max-width: 1055px; margin-right: 0 auto;}
+    .Contáctanos p { max-width: 450px;}
+
+	.Localización { background: #B0C4DE; color: #FFFAFA}
+		.Localización p { max-width: 1055px; margin: 0 auto;}
+
+/* 5.-LISTAS  */
+.list-services figure { position: relative; width: 150px; height: 150px;}
+  .list-services figure:after {content: ""; position: absolute; top: 0; left: 0;
+	 border-radius: 50%; z-index: 0; background: #fff; width: 150px; height: 150px;}
+    .list-services img {position: relative; z-index: 1;}
+.list-services li { padding: 0 30px; }
+.list-services figcaption { position: relative; left: 0; right: 0; bottom: -20px;}
+/* 6.-ANIMACIONES */
