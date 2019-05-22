@@ -39,7 +39,7 @@
     <!-- Header section -->
   	<header class="header-section">
   		<div class="container">
-  			<!-- logo -->
+  			<!-- logo  de la empresa-->
   			<a class="site-logo" href="index.html">
           <img src="img/Logo3D_50p.png" alt="">
   			</a>
