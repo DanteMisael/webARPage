@@ -47,7 +47,7 @@
           <button onclick="document.getElementById('id01').style.display='block'">Login</button>
   			     	 <!-- <a href="login.php">Login</a>  /  <a href="login.php">Register</a> -->
   			</div>
-  			<!-- responsive -->
+  			<!-- barra responsiva -->
   			<div class="nav-switch">
   				<i class="fa fa-bars"></i>
   			</div>
